@@ -1,1 +1,229 @@
 /* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+/*General Styles*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.8rem;
+  color: #4f4f4f;
+  line-height: 1.5;
+  font-family: "PT Sans", sans-serif;
+  background-color: #fffafa;
+  border: 1px solid black;
+}
+h1,
+h2,
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+/*/////////////////////////////////////// Add CSS styling here //////////////////////////////////////////////*/
+#header {
+  background-color: rgb(206, 206, 206);
+}
+
+.name h1 {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.navbar {
+  background-color: rgb(206, 206, 206);
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.links button {
+  width: 70px;
+}
+
+.txt-sec {
+  display: flex;
+  margin: 55px 100px;
+}
+
+.top-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-img {
+  display: flex;
+}
+
+.top-name {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 50px;
+}
+
+.item {
+  width: 21%;
+}
+
+.proj-btn {
+  border: 1px solid black;
+  background-color: #fffafa;
+  padding: 2px;
+  text-align: center;
+}
+
+footer {
+  height: 15vh;
+  background-color: rgb(206, 206, 206);
+  text-align: center;
+  padding: 35px;
+}
