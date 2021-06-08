@@ -80,7 +80,8 @@ padding-top:30px;
 figcaption{
  display: flex;
  flex-direction: column; 
- margin-left: 100px;
+ margin-top: 70px;
+ margin-left: 200px;
  padding: 100px; 
  width:100%
 }
@@ -119,4 +120,18 @@ footer a{
   margin:20px;
  background-color: #fffafa;
  border: 3px solid black;
+}
+
+
+/* DESKTOP FIRST DESIGN */
+@media(max-width){
+
+}
+
+@media(max-width){
+
+}
+
+@media(max-width){
+
 }
