@@ -143,11 +143,9 @@ footer a:hover {
 }
 
 /* DESKTOP FIRST DESIGN */
-@media (max-width: 800px) {
-  header {
-  }
-}
+/* NOT NESTING AT THIS POINT TO SEE MY WORK */
 
+/* max-width: 500px @media queries */
 @media (max-width: 500px) {
   header {
     align-items: center;
@@ -173,7 +171,22 @@ footer a:hover {
 
 @media (max-width: 500px) {
   main img {
-    width: 44%;
-    
+    width: 44%;    
   }
 }
+
+/* max-width: 800px @ media queries */
+
+@media (max-width: 800px) {
+  figcaption {
+  margin-left:60px;
+  align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+  main img {
+    width: 46%;    
+  }
+}
+
