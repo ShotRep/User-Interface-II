@@ -1,7 +1,7 @@
 /*CSS RESET*/
 
 * {
-  border: 1px rgb(255, 0, 0) solid; /*set before and after creating site*/
+  border: 0px rgb(255, 0, 0) solid; /*set before and after creating site*/
   max-width: 100%;             /*keeps from side scrolling*/
   box-sizing: border-box;      /*Fixes sizing when using padding*/
   margin: 0;
