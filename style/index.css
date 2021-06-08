@@ -145,36 +145,6 @@ footer a:hover {
 /* DESKTOP FIRST DESIGN */
 /* NOT NESTING AT THIS POINT TO SEE MY WORK */
 
-/* max-width: 500px @media queries */
-@media (max-width: 500px) {
-  header {
-    align-items: center;
-  }
-}
-
-@media (max-width: 500px) {
-  summary {
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 500px) {
-  figcaption {
-    margin-left: 0px;
-    margin-top: 30px;
-    flex-flow: column;
-    align-items: center;
-        text-align: center;
-  }
-}
-
-@media (max-width: 500px) {
-  main img {
-    width: 44%;    
-  }
-}
-
 /* max-width: 800px @ media queries */
 
 @media (max-width: 800px) {
@@ -189,4 +159,36 @@ footer a:hover {
     width: 46%;    
   }
 }
+
+/* max-width: 500px @media queries */
+@media (max-width: 500px) {
+  header {
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  summary {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+}
+
+@media (max-width: 500px) {
+  figcaption {
+    margin-left: 0px;
+    margin-top: 40px;
+    flex-flow: column;     
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  main img {
+    width: 44%;    
+  }
+}
+
+
 
