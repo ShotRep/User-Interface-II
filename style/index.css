@@ -143,11 +143,37 @@ footer a:hover {
 }
 
 /* DESKTOP FIRST DESIGN */
-@media (max-width) {
+@media (max-width: 800px) {
+  header {
+  }
 }
 
-@media (max-width) {
+@media (max-width: 500px) {
+  header {
+    align-items: center;
+  }
 }
 
-@media (max-width) {
+@media (max-width: 500px) {
+  summary {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  figcaption {
+    margin-left: 0px;
+    margin-top: 30px;
+    flex-flow: column;
+    align-items: center;
+        text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  main img {
+    width: 44%;
+    
+  }
 }
