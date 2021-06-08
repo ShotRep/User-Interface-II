@@ -40,6 +40,9 @@ a {
   text-decoration: none;
   color: #4f4f4f;
 }
+p{
+ font-size: 2rem;
+}
 
 /*PAGE CSS STYLES*/
 header{
@@ -67,12 +70,12 @@ header nav a{
  }
  figure{
  
-width:500px;
+width:1000px;
 padding-top:30px;
  }
  figure img{  
- width:100;
-  /* border-radius:50%;   */
+ width:100%;
+  border-radius:50%;  
  }
 figcaption{
  display: flex;
