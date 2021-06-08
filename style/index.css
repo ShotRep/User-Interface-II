@@ -45,6 +45,7 @@ p {
 }
 
 /*PAGE CSS STYLES*/
+
 header {
   display: flex;
   flex-direction: column;
@@ -113,11 +114,19 @@ main {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  height:100%;
+  margin: 50px 15px;
 }
 
-main img {
-  width: 45vh;
-  margin: 15px;
+main img {  
+  width: 49vh;
+  /* padding-bottom: 50px; */
+  margin-top: 10px;
+  
+}
+
+main p{
+text-align: center;
 }
 
 footer {
@@ -156,7 +165,7 @@ footer a:hover {
 
 @media (max-width: 800px) {
   main img {
-    width: 46%;    
+    width: 100%;    
   }
 }
 
@@ -186,7 +195,7 @@ footer a:hover {
 
 @media (max-width: 500px) {
   main img {
-    width: 44%;    
+    width: 100%;    
   }
 }
 
