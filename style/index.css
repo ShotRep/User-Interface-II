@@ -1,1 +1,203 @@
-/* Add CSS styling here */
+/*CSS RESET*/
+
+* {
+  border: 0px rgb(255, 0, 0) solid; /*set before and after creating site*/
+  max-width: 100%; /*keeps from side scrolling*/
+  box-sizing: border-box; /*Fixes sizing when using padding*/
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/*GENERAL CSS STYLES*/
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 1.5;
+  font-family: "PT Sans", sans-serif;
+  background-color: #fffafa;
+}
+h1,
+h2,
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+p {
+  font-size: 2rem;
+}
+
+/*PAGE CSS STYLES*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #c0c0c0;
+  width: 100%;
+}
+header h1 {
+  padding: 10px 20px;
+}
+header nav {
+  padding: 0 0 10px 20px;
+}
+
+header nav a {
+  color: black;
+  padding: 3px;
+  background-color: #fffafa;
+  border: 3px solid black;
+  font-weight: 500;
+}
+header nav a:hover {
+  color: #fffafa;
+  background-color: black;
+  border: 3px solid #fffafa;
+}
+
+summary {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  height: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  /* width: 900px; */
+}
+
+figure img {
+  border-radius: 50%;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  /* width:700px; */
+}
+
+figcaption a {
+  text-align: center;
+  margin: 10px 0;
+  width: 100px;
+  padding: 3px;
+  background-color: #fffafa;
+  border: 3px solid black;
+}
+
+figcaption a:hover {
+  background-color: black;
+  color: #fffafa;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height:100%;
+  margin: 50px 15px;
+}
+
+main img {  
+  width: 49vh;
+  /* padding-bottom: 50px; */
+  margin-top: 10px;
+  
+}
+
+main p{
+text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px;
+  background-color: #c0c0c0;
+  width: 100%;
+}
+
+footer a {
+  padding: 3px;
+  margin: 20px;
+  background-color: #fffafa;
+  border: 3px solid black;
+}
+
+footer a:hover {
+  color: #fffafa;
+  background-color: black;
+  border: 3px solid #fffafa;
+}
+
+/* DESKTOP FIRST DESIGN */
+/* NOT NESTING AT THIS POINT TO SEE MY WORK */
+
+/* max-width: 800px @ media queries */
+
+@media (max-width: 800px) {
+  figcaption {
+  margin-left:60px;
+  align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+  main img {
+    width: 100%;    
+  }
+}
+
+/* max-width: 500px @media queries */
+@media (max-width: 500px) {
+  header {
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  summary {
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+}
+
+@media (max-width: 500px) {
+  figcaption {
+    margin-left: 0px;
+    margin-top: 40px;
+    flex-flow: column;     
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  main img {
+    width: 100%;    
+  }
+}
+
+
+
